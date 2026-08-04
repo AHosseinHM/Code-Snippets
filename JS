@@ -1,1 +1,5 @@
+<?php
 
+add_filter('woocommerce_order_button_text', function () {
+    return 'پرداخت';
+});
